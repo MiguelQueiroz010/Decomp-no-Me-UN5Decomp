@@ -1,5 +1,7 @@
 # Decomp-no-Me-UN5Decomp
 
+![Capa](tsukinodecomplogo.jpg)
+
 **Decompilation of Naruto Shippuden: Ultimate Ninja 5**
 
 A work-in-progress decompilation project aiming to recreate **Naruto Shippuden: Ultimate Ninja 5** from its original MIPS R5900 assembly into readable and maintainable C/C++ source code.
