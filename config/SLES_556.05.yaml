@@ -1,0 +1,89 @@
+# Naruto Shippuden Ultimate Ninja 5
+sha1: f81e8e0e48632cdc7d25589cb061ba3e038b1681
+options:
+  basename: SLES_556.05
+
+  base_path: ..
+  target_path: baserom/SLES_556.05.rom
+  elf_path: build/SLES_556.05.elf
+
+  platform: ps2
+  compiler: MWCCPS2
+
+  gp_value: 0x00617EF0
+  # ld_gp_expression:
+
+  asm_path: asm
+  src_path: src
+  build_path: build
+  asset_path: assets
+
+  ld_script_path: config/SLES_556.05.ld
+  ld_dependencies: True
+  ld_wildcard_sections: True
+  ld_bss_contains_common: True
+
+  create_asm_dependencies: True
+
+  find_file_boundaries: False
+
+  o_as_suffix: True
+
+  symbol_addrs_path:
+    - config/symbol_addrs.txt
+
+  reloc_addrs_path:
+    - config/reloc_addrs.txt
+
+  undefined_funcs_auto_path: config/auto/undefined_funcs_auto.txt
+  undefined_syms_auto_path: config/auto/undefined_syms_auto.txt
+
+  extensions_path: tools/splat_ext
+
+  string_encoding: ASCII
+  data_string_encoding: ASCII
+  rodata_string_guesser_level: 2
+  data_string_guesser_level: 2
+
+  named_regs_for_c_funcs: False
+
+  section_order:
+    - .text
+    # - .vutext
+    - .data
+    # - .vudata
+    - .rodata
+    - .gcc_except_table
+    - .lit8
+    - .lit4
+    - .sdata
+    - .sbss
+    - .bss
+    # - .vubss
+
+  auto_link_sections:
+    - .data
+    # - .vudata
+    - .rodata
+    - .gcc_except_table
+    - .lit8
+    - .lit4
+    - .sdata
+    - .sbss
+    - .bss
+    # - .vubss
+
+segments:
+  - name: cod
+    type: code
+    start: 0x000000
+    vram: 0x00100000
+    bss_size: 0x310E80
+    subalign: null
+    subsegments:
+      - [0x000000, asm, cod/text]
+      - [0x2D5780, bin, cod/unknown_2D5780]
+      - [0x4E3A00, asm, cod/late_text]
+      - [0x4E7210, bin, cod/unknown_4E7210]
+
+  - [0x517A80]

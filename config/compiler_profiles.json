@@ -1,0 +1,7 @@
+{
+  "mwcc24_o0p": ["-lang", "c", "-nostdinc", "-O0,p"],
+  "mwcc24_o1p": ["-lang", "c", "-nostdinc", "-O1,p"],
+  "mwcc24_o2p": ["-lang", "c", "-nostdinc", "-O2,p"],
+  "mwcc24_o3p": ["-lang", "c", "-nostdinc", "-O3,p"],
+  "mwcc24_o4p": ["-lang", "c", "-nostdinc", "-O4,p"]
+}

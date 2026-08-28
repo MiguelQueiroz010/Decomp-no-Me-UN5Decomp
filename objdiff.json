@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/encounter/objdiff/main/config.schema.json",
+  "min_version": "3.8.0",
+  "name": "Naruto Shippuden: Ultimate Ninja 5",
+  "build_target": false,
+  "build_base": false,
+  "watch_patterns": [
+    "*.c",
+    "*.h",
+    "*.json",
+    "*.py"
+  ],
+  "ignore_patterns": [
+    "build/**/*"
+  ],
+  "units": [
+    {
+      "name": "func_0018B740",
+      "target_path": "build/expected/func_0018B740/mwcc24_o3p/func_0018B740.o",
+      "base_path": "build/match/func_0018B740/mwcc24_o3p/func_0018B740.o"
+    },
+    {
+      "name": "func_0018CCB0",
+      "target_path": "build/expected/func_0018CCB0/mwcc24_o3p/func_0018CCB0.o",
+      "base_path": "build/match/func_0018CCB0/mwcc24_o3p/func_0018CCB0.o"
+    },
+    {
+      "name": "func_001974C0",
+      "target_path": "build/expected/func_001974C0/mwcc24_o3p/func_001974C0.o",
+      "base_path": "build/match/func_001974C0/mwcc24_o3p/func_001974C0.o"
+    },
+    {
+      "name": "func_00198B10",
+      "target_path": "build/expected/func_00198B10/mwcc24_o3p/func_00198B10.o",
+      "base_path": "build/match/func_00198B10/mwcc24_o3p/func_00198B10.o"
+    },
+    {
+      "name": "func_001B13C0",
+      "target_path": "build/expected/func_001B13C0/mwcc24_o3p/func_001B13C0.o",
+      "base_path": "build/match/func_001B13C0/mwcc24_o3p/func_001B13C0.o"
+    },
+    {
+      "name": "func_001C87F0",
+      "target_path": "build/expected/func_001C87F0/mwcc24_o3p/func_001C87F0.o",
+      "base_path": "build/match/func_001C87F0/mwcc24_o3p/func_001C87F0.o"
+    },
+    {
+      "name": "func_001FE2C0",
+      "target_path": "build/expected/func_001FE2C0/mwcc24_o3p/func_001FE2C0.o",
+      "base_path": "build/match/func_001FE2C0/mwcc24_o3p/func_001FE2C0.o"
+    }
+  ]
+}

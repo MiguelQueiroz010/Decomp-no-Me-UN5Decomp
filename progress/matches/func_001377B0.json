@@ -1,0 +1,12 @@
+{
+  "format": 1,
+  "target": "SLES_556.05",
+  "function": "func_001377B0",
+  "vram": "0x001377B0",
+  "size": 8,
+  "profile": "mwcc24_o3p",
+  "source": "src/cod/func_001377B0.c",
+  "source_sha256": "d727ffa335131e153c8b6964e0c6c0a5fb128478a08c16b4fc0ef168ff366394",
+  "original_text_sha256": "e856b9103ef09093a4aeae863e82e56f283fd4f76607d418804c6fe4cefea9fc",
+  "compiled_text_sha256": "e856b9103ef09093a4aeae863e82e56f283fd4f76607d418804c6fe4cefea9fc"
+}
