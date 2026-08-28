@@ -1,0 +1,24 @@
+{
+  "base": {
+    "elf": "baserom/SLES_556.05",
+    "elf_sha256": "20a43677397731a2a20899336d1165ace5b436906b9b89be90fb10f4558dd19d",
+    "rom": "baserom/SLES_556.05.rom",
+    "load_vram": "0x00100000",
+    "file_backed_size": "0x00517A80",
+    "elf_file_offset": "0x180"
+  },
+  "gp": "0x00617EF0",
+  "code_caves": [
+    {
+      "vram": "0x0015E648",
+      "size": "0x38"
+    }
+  ],
+  "tools": {
+    "wibo": "tools/bin/wibo",
+    "mwcc": "tools/mwccps2/mwccps2.exe",
+    "objdiff": "tools/objdiff-cli",
+    "objcopy": "mips-linux-gnu-objcopy",
+    "objdump": "mips-linux-gnu-objdump"
+  }
+}
